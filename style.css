@@ -445,3 +445,59 @@ template {
 [hidden] {
   display: none;
 }
+
+.title-icon {
+     font-size: 40px;
+     vertical-align: middle;
+}
+
+#music-header {
+     display:inline-block;
+}
+
+#music-title {
+     font-size: 28px;
+     font-weight: bold;
+}
+
+.song-list {
+     padding-top: 15px;
+     padding-bottom: 15px;
+}
+
+.list-icon {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.list-title {
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.list-artist {
+     font-size: 14px;
+     color: #A5A5A5;
+}
+
+.music-controller {
+     background-color: #2C2C2C;
+     color: #FFFFFF;
+     padding-top: 15px;
+     padding-bottom: 15px;
+}
+
+.control-icon {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.control-title {
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.control-artist {
+     font-size: 14px;
+     color: #A5A5A5;
+}

@@ -10,6 +10,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
@@ -24,14 +25,51 @@
 
 
 <body>
-	<div class="container">
-		<div class="jumbotron">
-               <div class="row">
-                    <div class="col-md-9">
-                         <p class="lead">Royalty Free Music</p>
-                    </div>
+	<div class="container vertical-center">
+     		
+               <!-- page title -->
+               <div class="jumbotron">
+
+                         <span id="music-header">
+                              <span class="glyphicon glyphicon-cd title-icon" aria-hidden="true"></span>
+                              <span id="music-title">Royalty Free Music</span>
+                         </span>   
+
                </div>
-		</div>
+
+                    <!-- song selection -->
+
+               <div class="row song-list">
+                    
+                    <div class="col-md-1">
+                         <span class="glyphicon glyphicon-play list-icon" aria-hidden="true"></span>
+                    </div>
+
+                    <div class="col-md-11">
+                         <span class="list-title">On Hold</span><br>
+                         <span class="list-artist">Edith Frost</span>
+                    </div>
+
+               </div>
+
+                    <!-- player controls -->
+
+               <div class="row music-controller">
+                    
+                    <div class="col-md-2">
+                         <span class="glyphicon glyphicon-step-backward control-icon" aria-hidden="true"></span>
+                         <span class="glyphicon glyphicon-play control-icon" aria-hidden="true"></span>
+                         <span class="glyphicon glyphicon-step-forward control-icon" aria-hidden="true"></span>
+                    </div>
+
+                    <div class="col-md-10">
+                         <span class="control-title">On Hold</span><br>
+                         <span class="control-artist">Edith Frost</span>
+                    </div>
+
+               </div>
+
+     		
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
