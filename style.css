@@ -446,6 +446,10 @@ template {
   display: none;
 }
 
+.top-music{
+     margin-bottom: 0px;
+}
+
 .title-icon {
      font-size: 40px;
      vertical-align: middle;

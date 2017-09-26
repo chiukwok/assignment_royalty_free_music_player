@@ -1,5 +1,51 @@
-  
+
+// Create song constructor:
+// - Status: Play/Pause/Stop
+// - Song Title
+// - Song artists
+// - Song index
+// Do I need to 'store' a music list?
+
+// Actions
+// - If song status is play,
+// 	copy song title
+// 	copy song artists
+// 	copy song status
+// - Click sequence from play to pause to Stop
+// - Next or Previous song will move with song index (array style?)
+// 	clicking next will change song status to stop and play for the next one
+
+class song {
+
+	constructor(){ //incl artist and title?
+		this.$title = $("<div>").addClass(".list-title").html(); // need something in the html...
+		this.artist = ;
+		this.index = []; //???
+		this.songStatus = ; // to default to stop?
+	}
+
+}
+
+class musicPlayer {
+
+	songStatus() {
+		//default to stop - show play icon
+		//if play - show play icon
+			//if .click on play status => update status to pause
+			//show pause icon
+	}
+
+	//instance of song
+
+}
+
+// within musicPlayer construct we'll have
+// var song = new Song kinda thing going on
+
 $(document).ready(function(){
+
+list of songs here
+maybe like add song or just through constructor
 
 });
 
