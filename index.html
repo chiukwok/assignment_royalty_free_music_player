@@ -39,37 +39,25 @@
 
                <div class="panel-body">
 
-                    <div class="row song-list">
+                    <!-- TEMPLATE -->
+                    <div id="song-list-template" class="row song-list" style="display: none;">
                          
                          <div class="col-md-1">
                               <span class="glyphicon glyphicon-play list-icon" aria-hidden="true"></span>
                          </div>
 
                          <div class="col-md-11">
-                              <span class="list-title">On Hold</span><br>
-                              <span class="list-artist">Edith Frost</span>
+                              <span class="list-title"></span><br>
+                              <span class="list-artist"></span>
                          </div>
 
                     </div>
-
-                    <div class="row song-list">
-                         
-                         <div class="col-md-1">
-                              <span class="glyphicon glyphicon-play list-icon" aria-hidden="true"></span>
-                         </div>
-
-                         <div class="col-md-11">
-                              <span class="list-title">On Hold</span><br>
-                              <span class="list-artist">Edith Frost</span>
-                         </div>
-
-                    </div>
-
+                    <!-- TEMPLATE END -->
 
                </div>
 
                <div class="panel-footer music-controller">                    
-                    <div class="row">
+                    <div class="row" id="#controller-template">
                          <div class="col-md-2">
                               <span class="glyphicon glyphicon-step-backward control-icon" aria-hidden="true"></span>
                               <span class="glyphicon glyphicon-play control-icon" aria-hidden="true"></span>
@@ -77,8 +65,8 @@
                          </div>
 
                          <div class="col-md-10">
-                              <span class="control-title">On Hold</span><br>
-                              <span class="control-artist">Edith Frost</span>
+                              <span class="control-title">Music Player Paused</span><br>
+                              <span class="control-artist">Select song to play</span>
                          </div>
                     </div>
                </div>
@@ -94,3 +82,9 @@
   </body>
 
 </html>
+
+
+<!-- ICONS
+glyphicon glyphicon-play
+glyphicon glyphicon-pause
+glyphicon glyphicon-stop -->
